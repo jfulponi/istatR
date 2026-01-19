@@ -17,7 +17,7 @@ This package is inspired by the Python [istatapi](https://github.com/Attol8/ista
 
 ```r
 # Install from source
-# devtools::install_github("your-username/istatR")
+devtools::install_github("jfulponi/istatR")
 
 # Or install locally
 devtools::install_local("path/to/istatR")
