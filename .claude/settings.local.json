@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone:*)",
+      "Bash(R CMD build:*)",
+      "Bash(R CMD check:*)",
+      "Bash(R -e:*)",
+      "Bash(curl:*)",
+      "Bash(R CMD INSTALL:*)",
+      "Bash(R --vanilla -e:*)"
+    ]
+  }
+}
