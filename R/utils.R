@@ -50,17 +50,6 @@ xml_attr_safe <- function(node, attr, default = NA_character_) {
 #'
 #' @return Character string with the SDMX filter key
 #' @keywords internal
-#'
-#' @examples
-#' \dontrun{
-#' # Single values
-#' make_url_key(list(FREQ = "M", TIPO_DATO = "ISAV"))
-#' # Returns: "M.ISAV"
-#'
-#' # Multiple values for a dimension
-#' make_url_key(list(FREQ = "M", TIPO_DATO = c("ISAV", "ESAV")))
-#' # Returns: "M.ISAV+ESAV"
-#' }
 make_url_key <- function(filters) {
   if (length(filters) == 0) {
     return("")

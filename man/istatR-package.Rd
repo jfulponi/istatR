@@ -3,9 +3,9 @@
 \docType{package}
 \name{istatR-package}
 \alias{istatR-package}
-\title{istatR: R Interface to the Italian National Institute of Statistics (ISTAT) API}
+\title{istatR: Interface to the Italian National Institute of Statistics ('ISTAT') API}
 \description{
-Provides an R interface to the ISTAT SDMX RESTful API. Allows users to discover available datasets, explore their structure and dimensions, and retrieve statistical data from the Italian National Institute of Statistics. Based on the Python 'istatapi' package by Jacopo Attolini.
+Provides an interface to the 'ISTAT' 'SDMX' RESTful API \url{https://esploradati.istat.it/SDMXWS/rest/}. Allows users to discover available datasets, explore their structure and dimensions, and retrieve statistical data from the Italian National Institute of Statistics. Based on the Python 'istatapi' package by Jacopo Attolini.
 
 The istatR package provides an R interface to the ISTAT SDMX RESTful API,
 allowing users to discover available datasets, explore their structure and
@@ -53,20 +53,20 @@ data <- get_data(ds)
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/your-username/istatR}
-  \item Report bugs at \url{https://github.com/your-username/istatR/issues}
+  \item \url{https://github.com/jfulponi/istatR}
+  \item Report bugs at \url{https://github.com/jfulponi/istatR/issues}
 }
 
 
 Useful links:
 \itemize{
-  \item \url{https://github.com/your-username/istatR}
-  \item Report bugs at \url{https://github.com/your-username/istatR/issues}
+  \item \url{https://github.com/jfulponi/istatR}
+  \item Report bugs at \url{https://github.com/jfulponi/istatR/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Juan \email{juan@example.com}
+\strong{Maintainer}: Juan Ignacio Fulponi \email{jfulponi@economicas.uba.ar}
 
 }
 \keyword{internal}

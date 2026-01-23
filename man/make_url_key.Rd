@@ -18,15 +18,4 @@ Character string with the SDMX filter key
 Creates an SDMX-compliant filter key string from a list of dimension filters.
 Multiple values for a dimension are joined with "+", dimensions are separated by ".".
 }
-\examples{
-\dontrun{
-# Single values
-make_url_key(list(FREQ = "M", TIPO_DATO = "ISAV"))
-# Returns: "M.ISAV"
-
-# Multiple values for a dimension
-make_url_key(list(FREQ = "M", TIPO_DATO = c("ISAV", "ESAV")))
-# Returns: "M.ISAV+ESAV"
-}
-}
 \keyword{internal}

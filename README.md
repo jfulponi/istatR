@@ -4,7 +4,7 @@ R Interface to the Italian National Institute of Statistics (ISTAT) API
 
 ## Overview
 
-`istatR` provides an R interface to the [ISTAT SDMX RESTful API](https://esploradati.istat.it/SDMXWS/rest), allowing users to:
+`istatR` provides an R interface to the [ISTAT SDMX RESTful API](https://esploradati.istat.it/SDMXWS), allowing users to:
 
 - Discover all available ISTAT datasets
 - Search for datasets by keyword
@@ -16,11 +16,15 @@ This package is inspired by the Python [istatapi](https://github.com/Attol8/ista
 ## Installation
 
 ```r
+# Install from CRAN
+
+install.packages("istatR")
+
 # Install from source
-devtools::install_github("jfulponi/istatR")
+# devtools::install_github("jfulponi/istatR")
 
 # Or install locally
-devtools::install_local("path/to/istatR")
+# devtools::install_local("path/to/istatR")
 ```
 
 ## Usage
