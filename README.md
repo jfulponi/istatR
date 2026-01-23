@@ -1,17 +1,17 @@
 # istatR
 
-R Interface to the Italian National Institute of Statistics (ISTAT) API
+Interface to the Italian National Institute of Statistics ('ISTAT') API
 
 ## Overview
 
-`istatR` provides an R interface to the [ISTAT SDMX RESTful API](https://esploradati.istat.it/SDMXWS), allowing users to:
+`istatR` provides an interface to the ['ISTAT' 'SDMX' RESTful API](https://esploradati.istat.it/SDMXWS), allowing users to:
 
-- Discover all available ISTAT datasets
+- Discover all available 'ISTAT' datasets
 - Search for datasets by keyword
 - Explore dataset structure and dimensions
 - Retrieve statistical data with flexible filtering
 
-This package is inspired by the Python [istatapi](https://github.com/Attol8/istatapi) package by Jacopo Attolini.
+This package is inspired by the Python ['istatapi'](https://github.com/Attol8/istatapi) package by Jacopo Attolini.
 
 ## Installation
 
@@ -136,7 +136,7 @@ data <- istat_get(
 
 | Function | Description |
 |----------|-------------|
-| `all_available()` | List all available ISTAT datasets |
+| `all_available()` | List all available 'ISTAT' datasets |
 | `search_dataset(keyword)` | Search datasets by keyword in description |
 | `istat_dataset(id)` | Create a dataset object for exploration |
 | `dimensions_info(ds)` | Get information about dataset dimensions |
@@ -150,7 +150,7 @@ data <- istat_get(
 
 ## API Timeout
 
-**Note:** The ISTAT API can be slow to respond, especially when listing all datasets or retrieving large amounts of data. The default timeout is set to **300 seconds (5 minutes)** to accommodate this.
+**Note:** The 'ISTAT' API can be slow to respond, especially when listing all datasets or retrieving large amounts of data. The default timeout is set to **300 seconds (5 minutes)** to accommodate this.
 
 If you encounter timeout errors, you can increase the timeout:
 
@@ -168,7 +168,7 @@ istat_timeout(900)  # 15 minutes
 
 ## API Reference
 
-This package uses the ISTAT SDMX REST API:
+This package uses the 'ISTAT' 'SDMX' REST API:
 - Base URL: `https://esploradati.istat.it/SDMXWS/rest`
 - Agency ID: `IT1`
 
@@ -230,12 +230,12 @@ This produces a time series plot showing the evolution of Italian unemployment f
 
 ![Italian Unemployment Rate](man/figures/unemployment_rate.png)
 
-**Note:** The ISTAT API can occasionally be slow or temporarily unavailable. If you experience connection issues, try again later or increase the timeout with `istat_timeout(600)`.
+**Note:** The 'ISTAT' API can occasionally be slow or temporarily unavailable. If you experience connection issues, try again later or increase the timeout with `istat_timeout(600)`.
 
 ## License
 Apache License 2.0
 
 ## Acknowledgments
 
-- Inspired by [istatapi](https://github.com/Attol8/istatapi) Python package by Jacopo Attolini
-- Data provided by [ISTAT](https://www.istat.it/) - Italian National Institute of Statistics
+- Inspired by ['istatapi'](https://github.com/Attol8/istatapi) Python package by Jacopo Attolini
+- Data provided by ['ISTAT'](https://www.istat.it/) - Italian National Institute of Statistics
